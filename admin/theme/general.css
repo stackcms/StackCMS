@@ -1,0 +1,84 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+code.colors {
+    background-color: #ffffff;
+    border-radius: 3px;
+    font-size: 12px;
+    color: #333333;
+    padding: 3px 8px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #aaaaaa;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #aaaaaa;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #aaaaaa;
+}
+
+span.arrow-right {
+    font-size: 20px;
+}
+
+code { color: #5cb85c; }
+
+.cardList {
+    font: 400 12px 'Segoe UI', Open Sans, Nunito, sans-serif;
+    margin: 0 5px 10px 5px;
+    display: inline-block;
+    text-align: center;
+    width: 130px;
+}
+
+tr.rows td {
+  border-bottom: 1px solid rgba(0,0,0,0.05);
+}
+
+table.customTable {
+  background-color: #FFFFFF;
+  border-collapse: collapse;
+  border: 1px solid #e3e3e3;
+  color: #999999;
+}
+table.customTable td, table.customTable th {
+  border: 1px solid #e3e3e3;
+  padding: 5px;
+}
+table.customTable tr:nth-child(odd), table.customTable th:nth-child(odd) {
+    background-color: #f8f8f8;
+}
+
+blockquote.updates {
+  margin: 10px 3% !important;
+  line-height: 14px;
+  font-size: 12px;
+}
+
+.dropdown-menu .custom::after {
+  font-family: "bootstrap-icons";
+	font-weight: 900;
+	font-size: 12px;
+  content: '\F5D3';
+}
+
+h2 {
+  margin: 30px 0 20px 0;
+}
+
+hr {
+  margin-top: 1.5rem !important;
+  margin-bottom: 1.5rem !important;
+  border: 0;
+  border-top: 1px dashed rgba(0,0,0,.1) !important;
+}
+
+@media screen and ( max-width: 1366px ) {
+  .box {
+    display: block;
+  }
+}
