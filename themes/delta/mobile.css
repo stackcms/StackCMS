@@ -1,0 +1,124 @@
+@media only screen and (max-width: 800px) {
+	#menu a:not(:first-child) {display: none;}
+	#menu a.icon {
+		float: right;
+		display: block;
+	}
+}
+@media only screen and (max-width: 800px) {
+	#wrapper {
+		padding: 0 10px 10px 10px;
+		overflow: auto;
+		margin: 0 auto;
+		width: 98%;
+	}
+	#logo {
+		max-width: 100%;
+		width: 100%;
+	}
+	#container {
+		margin: 0 1%;
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+	#sidebar {
+		float: left;
+		width: 100%;
+		clear: both;
+	}
+	#menu {
+		margin: 0 -10px 30px -10px;
+		position: fixed;
+		padding: 10px;
+		width: 100%;
+		float: top;
+		top: 0 !important;
+	}
+	#menu.responsive {
+		position: fixed;
+		padding: 0;
+		width: 100%;
+	}
+	#menu.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+	#menu.responsive a {
+		font: 600 14px 'Raleway', sans-serif;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        padding: 13px 20px;
+        display: block;
+        color: #3f3f3f;
+		margin: 0;
+        float: none;
+	}
+	#menu.responsive a:hover {
+		background-color: #ffffff;
+	}
+	#menu.responsive a::after, #menu a.icon::after {
+		background-color: transparent;
+		margin-bottom: 0;
+		height: 0;
+	}
+	#menu.responsive a:hover::after, #menu a.icon:hover::after {
+		height: 0;
+	}
+	#menu.responsive .pull-left {
+		float: none;
+	}
+	#menu.responsive .pull-right, #menu .pull-right {
+		display: none;
+	}
+	.navbar-fixed-top.scrolled {
+		width: 100% !important;
+		padding: 10px 0 !important;
+	}
+	#footer > div {
+		border-right: 0px dotted #404040;
+    	padding-right: 0px;
+    	padding-left: 0px;
+		width: 100%;
+    	/*flex: 1;*/
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	h1.entry-title, h1.entry-title a {
+		font-size: 16pt !important;
+	}
+	#wrapper {
+		padding: 0 10px 10px 10px;
+		overflow: auto;
+		margin: 0 auto;
+		width: 94%;
+	}
+	#container, #sidebar {
+		font: 400 12px 'Raleway', sans-serif;
+		text-align: justify;
+		letter-spacing: 1px;
+		line-height: 18px;
+	}
+	#logo {
+		max-width: 100%;
+		width: 100%;
+	}
+	#footer {
+		padding: 10px;
+		width: 94%;
+	}
+	#footer > div {
+		border-right: 0px dotted #404040;
+    	padding-right: 0px;
+    	padding-left: 0px;
+		width: 100%;
+    	/*flex: 1;*/
+	}
+	#footer > div:last-child {
+    	border-right: 0 dotted #404040;
+    	padding-right: 0;
+    	padding-left: 0px;
+	}
+}
